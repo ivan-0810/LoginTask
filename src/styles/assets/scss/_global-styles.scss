@@ -1,0 +1,62 @@
+
+body,
+html {
+  font-size: 16px;
+  font-family: 'Europa-Regular';
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Europa-Bold';
+}
+h4,
+h5,
+h6 {
+  font-family: 'Europa-Regular';
+};
+a {
+  text-decoration: none !important;
+}
+a,
+p {
+  font-weight: 300;
+  font-size: 1.2rem;
+  color: $gray-100;
+}
+.btn:focus {
+ -webkit-box-shadow: none!important;
+         box-shadow: none!important;
+}
+.form-control:focus {
+  border-color: $secondary;
+  outline: 0;
+  box-shadow: none
+}
+
+.main-container{
+  height: 100vh;
+  @include display-flex( flex, "", center, "center");
+}
+
+.spinner-wrapper {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  background-color: $black;
+  box-shadow: -1px 5px 43px -3px rgb(0, 0, 0, 0.15);
+  -webkit-box-shadow: -1px 5px 43px -3px rgb(0, 0, 0, 0.15);
+  -moz-box-shadow: -1px 5px 43px -3px rgb(0, 0, 0, 0.15);
+}
+
+.eclipse_spinner {
+  background-image: url('../spinners/Eclipse-1s-200px.svg');
+  @include background(center, no-repeat, cover);
+  padding: 20px;
+  width: 70px;
+  height: 70px;
+  color: #fff;
+  border-radius: 50%;
+}

@@ -1,0 +1,155 @@
+
+$white:    #fff;
+$gray-100: #eff3f4;
+$gray-200: #e8e8e8;
+$gray-300: #e3e3e3;
+$gray-400: #e0e4e7;
+$gray-500: #c8d2d4;
+$gray-600: #8c8c8c;
+$gray-700: #7d8184;
+$gray-800: #1b1c20;
+$black:    #000;
+
+$blue:       #071422;
+$indigo:     #727cf5;
+$purple:     #334856;
+$pink:       #D97D54;
+$red:        #fa5c7c;
+$orange:     #fd7e14;
+$yellow:     #ffbc00;
+$green:      #0acf97;
+$teal:       #6d8ca0;
+$cyan:       #1e7ce4;
+$sage:       #6c8ca1;
+
+$primary:       $pink;
+$secondary:     $purple;
+$success:       $green;
+$info:          $cyan;
+$warning:       $yellow;
+$danger:        $red;
+$light:         $gray-100;
+$dark:          $gray-800;
+
+$theme-colors: ();
+$theme-colors: map-merge((
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark,
+
+), $theme-colors);
+
+.bg-gray-200{
+  background-color: $gray-200;
+}
+.text-gray-200{
+  color: $gray-200;
+}
+.bg-gray-300{
+  background-color: $gray-300!important;
+}
+.text-gray-300{
+  color: $gray-300!important;
+}
+.bg-gray-400{
+  background-color: $gray-400!important;
+}
+.text-gray-400{
+  color: $gray-400!important;
+}
+.bg-gray-500{
+  background-color: $gray-500!important;
+}
+.text-gray-500{
+  color: $gray-500!important;
+}
+.bg-gray-600{
+  background-color: $gray-600!important;
+}
+.text-gray-600{
+  color: $gray-600!important;
+}
+.bg-gray-700{
+  background-color: $gray-700!important;
+}
+.text-gray-700{
+  color: $gray-700;
+}
+.text-sage{
+  color:$sage!important;
+}
+.bg-sage{
+  background-color:$sage!important;
+}
+
+.text-teal{
+  color:$teal;
+}
+.bg-teal{
+  background-color:$teal;
+}
+
+//font-weight
+.font-weight-bold{
+  font-weight: 700;
+}
+
+
+//border
+.border-dashed{
+  border: 1px dashed #C8D1D3;
+}
+
+
+//font-family
+ .rs-medium{
+  font-family: 'Rift-Soft Medium';
+ }
+ .rs-demi{
+  font-family: 'Rift-Soft Demi';
+ }
+ .eu-light{
+  font-family: 'Europa-Light';
+ }
+ .eu-bold{
+  font-family: 'Europa-bold';
+ }
+
+//font-size
+.fs-10{
+  font-size: 10px;
+}
+.fs-12{
+  font-size: 12px;
+}
+.fs-14{
+  font-size: 14px;
+}
+.fs-15{
+  font-size: 15px;
+}
+
+.fs-18{
+  font-size: 18px;
+}
+
+
+//letter spacing
+.ls-21{
+  letter-spacing: 2.1px;
+}
+
+.box-shadow-1{
+  box-shadow: 0px 0px 10px #1B1C201A;
+}
+.box-shadow-2 {
+  box-shadow: 0px 10px 15px #1B1C201A;
+}
+.box-shadow-3 {
+  box-shadow: 0px 10px 30px #42596529;
+}

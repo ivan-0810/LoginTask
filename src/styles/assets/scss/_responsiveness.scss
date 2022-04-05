@@ -1,0 +1,13 @@
+@media (max-height: 630px) {
+  .schedule{
+    height: auto;
+    .schedule-form-btn{
+      position: static;
+      bottom: none;
+      left: none;
+      -webkit-transform: none;
+          -ms-transform: none;
+              transform: none;
+    }
+  }
+}
